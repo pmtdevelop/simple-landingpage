@@ -10,8 +10,8 @@
   <meta name="keywords" content="<?php echo $keywords;?>">
   <meta name="author" content="<?php echo $author;?>">
 
-  <link rel="stylesheet" href="<?php echo $base_url;?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo $base_url;?>/assets/css/style.css">
+  <link rel="stylesheet" href="<?php echo $base_url;?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo $base_url;?>/assets/css/animate.css">
 
 	<link rel="shortcut icon" href="<?php echo $base_url;?>images/favicon.png" />

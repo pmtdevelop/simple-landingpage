@@ -1,6 +1,6 @@
 <?php
 // Config Global
-$base_url = "http://localhost/ldp";
+$base_url = "http://localhost/simple-landingpage";
 // Config Seo
 $title = "Title here";
 $description = "Description";
