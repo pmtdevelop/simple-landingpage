@@ -31,20 +31,51 @@
                 <div class="panel-heading clearfix d-none d-sm-block">
                       <img src="<?php echo $base_url;?>/assets/images/CroppedFocusedImageWyIyMDAiLCIyMDAiLCI0OS0zNiJd-mba1.jpg" class="media-left pull-left" alt="Tran Thien Tra">
                       <div class="media-body">
-												<p class="text-primary"><span><strong>Tran Thien Tra</strong><br></span>CFVG MBA, intake 21<br>MIM 2012-2014, ESCP Europe Paris<br>General Director – TCHEM group</p>
-												<p class="text-muted">“<span>The best thing I got from CFVG MBA journey is the opportunity to expand my mind and ability to develop my business knowledge and leadership capabilities to advance my career. Thanks to this program, I not only have a network of great contacts, but a group of great friends as well. We build personal and professional relationship that last a life time”</span></p>
+												<p class="text-primary"><span><strong>Dana (Dane) L. Alden, PhD.</strong></p>
+												<ul>
+                          <li>Professor of Marketing</li>
+                          <li>Chair and William R. Johnson Jr. Distinguished Professor of Marketing</li>
+                          <li>Faculty Director, Health Care Management EMBA Program</li>
+                          <li>Ph.D. in Marketing and International Business, University of Texas at Austin</li>
+                          <li>Prof. Alden is working with researchers and practitioners to develop and test online interactive programs to</li>
+                          <li>improve the decision making process between patients and their health care providers</li>
+                        </ul>
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
                       <img src="<?php echo $base_url;?>/assets/images/CroppedFocusedImageWyIyMDAiLCIyMDAiLCI0OS0zNiJd-mba1.jpg" class="media-left pull-left" alt="Tran Thien Tra">
                       <div>
-												<p class="text-primary"><span><strong>Tran Thien Tra</strong><br></span>CFVG MBA, intake 21<br>MIM 2012-2014, ESCP Europe Paris<br>General Director – TCHEM group</p>
-												<p class="text-muted">“<span>The best thing I got from CFVG MBA journey is the opportunity to expand my mind and ability to develop my business knowledge and leadership capabilities to advance my career. Thanks to this program, I not only have a network of great contacts, but a group of great friends as well. We build personal and professional relationship that last a life time”</span></p>
+												<p class="text-primary"><span><strong>Dana (Dane) L. Alden, PhD.</strong></p>
+                        <ul>
+                          <li>Professor of Marketing</li>
+                          <li>Chair and William R. Johnson Jr. Distinguished Professor of Marketing</li>
+                          <li>Faculty Director, Health Care Management EMBA Program</li>
+                          <li>Ph.D. in Marketing and International Business, University of Texas at Austin</li>
+                          <li>Prof. Alden is working with researchers and practitioners to develop and test online interactive programs to</li>
+                          <li>improve the decision making process between patients and their health care providers</li>
+                        </ul>
 											</div>
                 </div>
             </div>
 						</section>
 						<!--Section Student-->
+            <h3>CẢM NHẬN CỦA CỰU HỌC VIÊN</h3>
+            <hr>
+            <div class="panel panel-info">
+              <div class="panel-heading clearfix d-none d-sm-block">
+                    <img src="<?php echo $base_url;?>/assets/images/CroppedFocusedImageWyIyMDAiLCIyMDAiLCI0OS0zNiJd-mba1.jpg" class="media-left pull-left" alt="Tran Thien Tra">
+                    <div class="media-body">
+                      <p class="text-primary"><span><strong>Maily Nguyen</strong><br></span>West Coast Implementation Team Head, HSBC, Seattle<br>Class of 2010 – HCMC<br></p>
+                      <p class="text-muted"><span>“The University of Hawaii Executive MBA program has brought me to a new energy level at which I feel adequate to search for more answers to my questions and face-off more challenges. The program has also given me the opportunity to know one of the most elite groups of professionals and call them friends. Together we have created beautiful memories and wonderful bonds. These are some of the best presents that life can bring.”</span></p>
+                    </div>
+              </div>
+              <div class="panel-heading clearfix d-block d-sm-none">
+                <img src="<?php echo $base_url;?>/assets/images/CroppedFocusedImageWyIyMDAiLCIyMDAiLCI0OS0zNiJd-mba1.jpg" class="media-left pull-left" alt="Tran Thien Tra">
+                <div class="media-body">
+                  <p class="text-primary"><span><strong>Maily Nguyen</strong><br></span>West Coast Implementation Team Head, HSBC, Seattle<br>Class of 2010 – HCMC<br></p>
+                  <p class="text-muted"><span>“The University of Hawaii Executive MBA program has brought me to a new energy level at which I feel adequate to search for more answers to my questions and face-off more challenges. The program has also given me the opportunity to know one of the most elite groups of professionals and call them friends. Together we have created beautiful memories and wonderful bonds. These are some of the best presents that life can bring.”</span></p>
+                </div>
+              </div>
 						<section>
 
 						</section>
