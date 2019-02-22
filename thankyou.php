@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Thank you !!!</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include('inc/header.php');?>
+  <div class="jumbotron text-xs-center">
+    <div class="container text-center">
+      <h1 class="display-3">THANK YOU !</h1>
+      <p class="lead"><strong>Bạn đã đăng ký thành công</strong> chúng tôi sẽ liên hệ với bạn sớm</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-sm" href="<?php echo $base_url?>" role="button">Trở về trang chủ</a>
+      </p>
+    </div>
 
-</head>
-<body>
+  </div>
 
-
-<section>
-
-</section>
-
-<h3>Cảm ơn bạn đã đăng ký</h3>
-<p><a href="#">Trở về trang chủ</a></p>
-
-</body>
-</html>
+<?php include('inc/footer.php');?>

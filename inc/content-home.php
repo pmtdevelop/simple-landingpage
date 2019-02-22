@@ -1,4 +1,3 @@
-<body>
     <div class="wrapper">
         <div class="container">
 						<!--Section Banner-->
