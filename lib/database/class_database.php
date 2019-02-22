@@ -40,10 +40,4 @@ class database{
         return $this->result;
     }
 }
-
-function __autoload($url){
-    $url =  strtolower($url);
-    require "models/$url.php";
-
-}
 ?>
