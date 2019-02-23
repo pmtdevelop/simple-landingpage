@@ -2,6 +2,9 @@
   font-size: 1em;
   color: #646464;
 }
+.contact_address_detail a{
+  color: #646464 !important;
+}
 a{
   color: #646464;
 }
