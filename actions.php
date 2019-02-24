@@ -24,13 +24,16 @@
         $sql = " insert into `langdingpage` ( $fields) values ($values)";
         $DB->query($sql);
         if($DB->getResult()){
+			
+		 // Redirect to Home
+			echo "<script type='text/javascript'>";
+				echo "window.location.href='$base_url/thankyou.php'";
+			echo "</script>";
+			
             // sendMail
             $content ="HE:::::::LLO";
             if(sendMail($mail_host,$mail_port,$title, $content,"nFrom", $email_send,$pass_send,"nTo" ,$email_send)){
-                // Redirect to Home
-                echo "<script type='text/javascript'>";
-                echo "window.location.href='$base_url/thankyou.php'";
-                echo "</script>";
+              
             }
         }
         $DB->disconnect();
