@@ -1,10 +1,10 @@
 <?php
 
-include "./lib//PHPMailer-master/src/PHPMailer.php";
-include "./lib//PHPMailer-master/src/Exception.php";
-include "./lib//PHPMailer-master/src/OAuth.php";
-include "./lib//PHPMailer-master/src/POP3.php";
-include "./lib//PHPMailer-master/src/SMTP.php";
+include "./lib/PHPMailer/src/PHPMailer.php";
+include "./lib/PHPMailer/src/Exception.php";
+include "./lib/PHPMailer/src/OAuth.php";
+include "./lib/PHPMailer/src/POP3.php";
+include "./lib/PHPMailer/src/SMTP.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -15,10 +15,10 @@ try{
 //Server settings
     $mail->SMTPDebug = 2;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp1.example.com;smtp2.example.com';  // Specify main and backup SMTP servers
+    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'vembaeduvn@gmail.com';                 // SMTP username
-    $mail->Password = 'secret';                           // SMTP password
+    $mail->Password = '113113aa';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
@@ -39,6 +39,7 @@ try{
 
     $mail->send();
     echo 'Message has been sent';
+    die("OKOKOKOOKOKO");
 }catch (Exception $e){
     echo 'Message has been sent'.$mail->ErrorInfo;
 }

@@ -1,8 +1,8 @@
 <?php
 require_once "./lib/database/class_database.php";
 require_once "./inc/config.php";
-require_once "./inc/send_mail.php";
-include "./inc/test_senMail.php";
+//require_once "./inc/send_mail.php";
+//include "./inc/test_senMail.php";
 
 if ($_POST["submit"]) {
     $DB = new database($hostname, $userhost, $passhost, $dbname);
@@ -10,7 +10,7 @@ if ($_POST["submit"]) {
     foreach ($_POST as $key => $value) {
         if ($key !== "submit") {
             $fields[] = "`" . $key . "`";
-            $datas[] = "N'" . $value . "'";
+            $datas[] = "'" . $value . "'";
         }
     }
     $fields = implode(',', $fields);

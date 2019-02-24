@@ -39,5 +39,8 @@ class database{
     public function getResult(){
         return $this->result;
     }
+    public function getConn(){
+        return $this->conn;
+    }
 }
 ?>
