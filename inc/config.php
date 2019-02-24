@@ -12,6 +12,7 @@ $hostname="localhost";
 $userhost = "root";
 $passhost = "";
 $dbname = "test";
+$tablename  = "langdingpage";
 
 
 // Config email

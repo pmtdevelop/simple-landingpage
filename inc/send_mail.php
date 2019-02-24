@@ -9,10 +9,8 @@ require_once "./lib/PHPMailer/src/POP3.php";
 require_once "./lib/PHPMailer/src/SMTP.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
 
 function sendMail($mail_host,$mail_port,$title, $content,$nFrom, $mFrom,$mPass, $nTo, $mTo){
-
 
     $mail             = new PHPMailer();
     $body             = $content;
@@ -33,8 +31,16 @@ function sendMail($mail_host,$mail_port,$title, $content,$nFrom, $mFrom,$mPass, 
     $mail->AddAddress($address, $nTo);
     $mail->AddReplyTo('info@freetuts.net', 'Freetuts.net');
     if(!$mail->Send()) {
+        echo "<pre>";
+        print_r("FALSE");
+        echo "</pre>";
+        die();
         return 0;
     } else {
+        echo "<pre>";
+        print_r("SUCCESS");
+        echo "</pre>";
+        die();
         return 1;
     }
 }

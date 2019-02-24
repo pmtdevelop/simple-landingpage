@@ -1,3 +1,5 @@
+
+<?php include "./actions.php";?>
 <?php include('inc/header.php');?>
   <div class="jumbotron text-xs-center">
     <div class="container text-center">
