@@ -463,7 +463,7 @@
 							</div>
 							<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/" class="media-left pull-left" alt="Quyen Nguyen">
+											<img src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Quyen Nguyen">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Quyen Nguyen</strong><br></span>Manager,<br>Partner Operations (Google<br>Play Movies & YouTube), San<br>Francisco. Class of 2012 –<br>HCMC<br></p>
 
@@ -472,7 +472,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/" class="media-left pull-left" alt="Quyen Nguyen">
+									<img src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Quyen Nguyen">
 									<div class="media-body">
 										<p class="textBlue"><span><strong>Quyen Nguyen</strong><br></span>Manager,<br>Partner Operations (Google<br>Play Movies & YouTube), San<br>Francisco. Class of 2012 –<br>HCMC<br></p>
 										<p class="text-muted"><span>“There will be no difference once I have my MBA. I already feel different. It was the journey. And it has already changed me.”</span></p>
@@ -571,7 +571,7 @@
 							</div>
 							<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/" class="media-left pull-left" alt="Nguyen Anh Tuan">
+											<img src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Nguyen Anh Tuan">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Nguyen Anh Tuan</strong><br></span>Director, Transaction Banking, Standard Chartered Bank, Sydney<br>Class of 2011 – HCMC<br></p>
 
@@ -580,7 +580,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/" class="media-left pull-left" alt="Nguyen Anh Tuan">
+									<img src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Nguyen Anh Tuan">
 									<div class="media-body">
 												<p class="textBlue"><span><strong>Nguyen Anh Tuan</strong><br></span>Director, Transaction Banking, Standard Chartered Bank, Sydney<br>Class of 2011 – HCMC<br></p>
 												<p class="text-muted"><span>“The key success factors in pursuing an Executive MBA program are strong commitment, hard work, and relentless sacrifice of other interests. In return, this program has given me the required knowledge to succeed, strong entrepreneurship, much widened professional network, and wonderful relationships with faculty members and other alumni. Financially, the program has been a good investment for my career. Above all, it has amazingly built a different perspective in life – just like what Albert Einstein used to say “Try not to become a man of success, but rather try to become a man of value”. The Executive MBA at University of Hawaii was definitely a chapter wort highlighting.”</span></p>
