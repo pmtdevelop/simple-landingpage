@@ -1,9 +1,9 @@
     <div class="wrapper">
-        <!-- <h1 class="invisible"><?php echo $title?></h1> -->
+        <h1 class="class="text-center""><?php echo $title?></h1>
         <div class="container">
 						<!--Section Banner-->
             <section class="banner">
-                    <h1><img title="<?php echo $title?>"  class="d-block w-100" src="<?php echo $base_url;?>/assets/images/CV_FB_New_2018.jpg" alt="Vemba"></h1>
+                    <img title="<?php echo $title?>"  class="d-block w-100" src="<?php echo $base_url;?>/assets/images/CV_FB_New_2018.jpg" alt="Vemba">
             </section>
 						<!--Section Content-->
 							<div class="main-content">
