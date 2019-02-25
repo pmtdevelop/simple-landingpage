@@ -109,6 +109,16 @@ ul, ol{
 }
 
 
+.input-validation{
+    -moz-box-shadow:    0 0 3px 2px #dd3535;
+    -webkit-box-shadow: 0 0 3px 2px #dd3535;
+    box-shadow:         0 0 3px 2px #dd3535;
+}
+.field-obligate{
+    color: red;
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .panel-heading img{

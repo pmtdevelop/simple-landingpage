@@ -22,5 +22,10 @@
 	<meta property="og:url" content="https://google.com">
 	<!-- Google Tags Manager-->
 	<!-- Facebook pixel-->
+
+	<script src="<?php echo $base_url;?>/assets/js/jquery-3.3.1.min.js"></script>
+	<script src="<?php echo $base_url;?>/assets/js/main.js"></script>
+	<script src="<?php echo $base_url;?>/assets/js/bootstrap.bundle.min.js"></script>
+	<script src="<?php echo $base_url;?>/assets/js/bootstrap.min.js"></script>
 </head>
 <body>

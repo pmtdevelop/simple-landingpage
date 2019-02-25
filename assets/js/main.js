@@ -1,42 +1,68 @@
-$(document).ready(function () {
-    
-    function jnotice(msg,timeout){
-        timeout = timeout ===undefined?3000:timeout;
-        if(jQuery('#jbnotice').length){
-            jQuery('#jbnotice').remove();
-        }
-        var html =
-    '<div id="jbnotice" ' +
-              'style="text-align:center;font-size:20px;border: 1px solid #ccc;background: rgb(18, 100, 232);color:white;position:fixed;width:300px;top:50%;left:50%;margin-left:-150px;magrin-top:-20px;line-height:40px;padding:10px;">'
-      +msg+
-    '</div>';
-        jQuery('body').append(html);
-        jQuery('#jbnotice').fadeOut(timeout);
+//
 
+var count = 10;
+function  countDownRedirect(url) {
+    var html = $("#count_down_time");
+    if(count > 0){
+        count--;
+        html.html(count);
+        setTimeout("countDownRedirect(url)", 1000);
+    }else{
+        console.log("DONE");
+        count = 10;
+        window.location.href = url;
     }
+}
 
-$("#submit").on("click",function (event) {
-        event.preventDefault();
-        var name = $("form").find("input[name='name']").val();
-        var email = $("form").find("input[name='email']").val();
-        var city = $("form").find("input[name='city']").val();
-        var phone_number = $("form").find("input[name='phone_number']").val();
 
-  $.ajax({
-    url:"actions.php",
-            type: 'post',
-            dataType:'text',
-            data: {
-        name:name,
-                email:email,
-                city:city,
-                phone_number:phone_number,
-      submit:"submit"
-    },
-            success: function(res){
-                jnotice(' Thành công',5000);
-                $("form")[0].reset();
+// Process after load page done
+$(document).ready(function () {
+
+    function input_validattion(element,notify){
+        var parent =  element.parent();
+        if(element.val() === ''){
+            if(element.attr("type")==="email"){
+                parent.find(".field-obligate").remove();
+                parent.append(notify)
             }
-  })
-    })
-})
+            parent.find(".field-obligate").remove();
+            element.addClass("input-validation");
+            parent.append(notify);
+            element.focus();
+            return false;
+        }else{
+            if(element.attr("type")==="email"){
+                var html = '<small class="field-obligate">Sai định dạng email</small>';
+                var re = /\S+@\S+\.\S+/;
+                if(!re.test(element.val())){
+                    element.focus();
+                    parent.find(".field-obligate").remove();
+                    parent.append(html);
+                    return false;
+                }
+
+            }
+        }
+        parent.find(".field-obligate").remove();
+        element.removeClass("input-validation");
+        return true;
+    }
+    $("#submit").on("click",function (event) {
+        var html = '<small class="field-obligate">Trường này là bắt buộc</small>';
+        var name = $("form").find("input[name='name']");
+        var email = $("form").find("input[name='email']");
+        var phone = $("form").find("input[name='phone_number']");
+        var check1 = input_validattion(name,html);
+        var check2 = input_validattion(email,html);
+        var check3 = input_validattion(phone,html);
+        if(check1&&check2&&check3){
+            return;
+        }else{
+            event.preventDefault();
+        }
+    });
+    $("input").on("click",function () {
+        $(this).removeClass("input-validation");
+        $(this).parent().find(".field-obligate").remove();
+    });
+});

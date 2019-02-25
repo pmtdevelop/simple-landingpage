@@ -1,47 +1,48 @@
 <?php
 
-define( 'ROOT', dirname(dirname(__FILE__)) . '/' );
+define('ROOT', dirname(dirname(__FILE__)) . '/');
 
-require_once "./lib/PHPMailer/src/PHPMailer.php";
-require_once "./lib/PHPMailer/src/Exception.php";
-require_once "./lib/PHPMailer/src/OAuth.php";
-require_once "./lib/PHPMailer/src/POP3.php";
-require_once "./lib/PHPMailer/src/SMTP.php";
+include "./lib/PHPMailer/src/PHPMailer.php";
+include "./lib/PHPMailer/src/Exception.php";
+include "./lib/PHPMailer/src/OAuth.php";
+include "./lib/PHPMailer/src/POP3.php";
+include "./lib/PHPMailer/src/SMTP.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-function sendMail($mail_host,$mail_port,$title, $content,$nFrom, $mFrom,$mPass, $nTo, $mTo){
+function sendMail($email_config,$content)
+{
 
-    $mail             = new PHPMailer();
-    $body             = $content;
-    $mail->IsSMTP();
-    $mail->CharSet   = "utf-8";
-    $mail->SMTPDebug  = 2;                     // enables SMTP debug information (for testing)
-    $mail->SMTPAuth   = true;                    // enable SMTP authentication
-    $mail->SMTPSecure = "ssl";                 // sets the prefix to the servier
-    $mail->Host       = $mail_host;
-    $mail->Port       = $mail_port;
-    $mail->Username   = $mFrom;               // GMAIL username
-    $mail->Password   = $mPass;               // GMAIL password
-    $mail->SetFrom($mFrom, $nFrom);
+    $mail = new PHPMailer(true);
 
-    $mail->Subject    = $title;
-    $mail->MsgHTML($body);
-    $address = $mTo;
-    $mail->AddAddress($address, $nTo);
-    $mail->AddReplyTo('info@freetuts.net', 'Freetuts.net');
-    if(!$mail->Send()) {
-        echo "<pre>";
-        print_r("FALSE");
-        echo "</pre>";
-        die();
-        return 0;
-    } else {
-        echo "<pre>";
-        print_r("SUCCESS");
-        echo "</pre>";
-        die();
-        return 1;
+    try {
+        //Server settings
+    $mail->SMTPDebug = 2;                                                       // Enable verbose debug output
+    $mail->isSMTP();                                                            // Set mailer to use SMTP
+    $mail->Host = $email_config->host;                                          // Specify main and backup SMTP servers
+    $mail->SMTPAuth = true;                                                     // Enable SMTP authentication
+    $mail->Username = $email_config->email_send;                                     // SMTP username
+    $mail->Password = $email_config->pass_send;                                     // SMTP password
+    $mail->SMTPSecure = 'tls';                                                  // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = $email_config->port;                                          // TCP port to connect to
+
+        //Recipients
+        $mail->setFrom($email_config->email_send, $email_config->sender_name);
+        $mail->addAddress($email_config->email_send, $email_config->sender_name);    // Add a recipient
+        $mail->addAddress($email_config->email_send);                                // Name is optional
+
+
+        //Content
+        $mail->isHTML(true);                                                    // Set email format to HTML
+        $mail->Subject = $email_config->mail_title;
+        $mail->Body = $content;
+//        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+        $mail->send();
+        echo 'Message has been sent';
+    } catch (Exception $e) {
+        echo 'ERROR: Message has not been sent' . $mail->ErrorInfo;
     }
 }
 

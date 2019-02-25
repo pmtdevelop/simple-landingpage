@@ -16,11 +16,18 @@ $tablename  = "langdingpage";
 
 
 // Config email
-$mail_title = "Title Mail";
-$mail_host = "smtp.gmail.com";
-$mail_port = 578;
-$email_send = "vembaeduvn@gmail.com";
-$pass_send = "113113aa";
+
+$email_config = new stdClass();
+
+$email_config->mail_title = "Title Mail";
+$email_config->host = "smtp.gmail.com";
+$email_config->port = 587;
+$email_config->email_send = "vembaeduvn@gmail.com";
+$email_config->pass_send = "fjvkktizsaphnmri";   //  google app password
+
+
+$email_config->sender_name = "Vemba";   //  google app password
+
 
 
 

@@ -41,5 +41,5 @@ try{
     echo 'Message has been sent';
     die("OKOKOKOOKOKO");
 }catch (Exception $e){
-    echo 'Message has been sent'.$mail->ErrorInfo;
+    echo 'ERROR: Message has been sent'.$mail->ErrorInfo;
 }
