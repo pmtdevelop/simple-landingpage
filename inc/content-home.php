@@ -1,8 +1,9 @@
     <div class="wrapper">
+        <!-- <h1 class="invisible"><?php echo $title?></h1> -->
         <div class="container">
 						<!--Section Banner-->
             <section class="banner">
-                    <img class="d-block w-100" src="<?php echo $base_url;?>/assets/images/CV_FB_New_2018.jpg" alt="First slide">
+                    <h1><img title="<?php echo $title?>"  class="d-block w-100" src="<?php echo $base_url;?>/assets/images/CV_FB_New_2018.jpg" alt="Vemba"></h1>
             </section>
 						<!--Section Content-->
 							<div class="main-content">
@@ -34,7 +35,7 @@
 							</div>
 							<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <div><img src="<?php echo $base_url;?>/assets/images/teacher/dana-alden-8q7qiat08h.jpg" class="media-left pull-left" alt="Dana (Dane) L. Alden, PhD."></div>
+                      <div><img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/dana-alden-8q7qiat08h.jpg" class="media-left pull-left" alt="Dana (Dane) L. Alden, PhD."></div>
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Dana (Dane) L. Alden, PhD.</strong></p>
 												<ul class="listTeacher">
@@ -48,7 +49,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <div><img src="<?php echo $base_url;?>/assets/images/teacher/dana-alden-8q7qiat08h.jpg" class="media-left pull-left" alt="Dana (Dane) L. Alden, PhD."></div>
+                      <div><img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/dana-alden-8q7qiat08h.jpg" class="media-left pull-left" alt="Dana (Dane) L. Alden, PhD."></div>
                       <div>
 												<p class="textBlue"><span><strong>Dana (Dane) L. Alden, PhD.</strong></p>
                         <ul>
@@ -64,7 +65,7 @@
 						</div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <div><img src="<?php echo $base_url;?>/assets/images/teacher/2.-David-Bell-300x300.jpg" class="media-left pull-left" alt="David Bell, Ph.D."></div>
+                      <div><img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/2.-David-Bell-300x300.jpg" class="media-left pull-left" alt="David Bell, Ph.D."></div>
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>David Bell, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -76,7 +77,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <div><img src="<?php echo $base_url;?>/assets/images/teacher/2.-David-Bell-300x300.jpg" class="media-left pull-left" alt="David Bell, Ph.D.a"></div>
+                      <div><img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/2.-David-Bell-300x300.jpg" class="media-left pull-left" alt="David Bell, Ph.D.a"></div>
                       <div class="">
 												<p class="textBlue"><span><strong>David Bell, Ph.D.</strong></p>
                         <ul>
@@ -90,7 +91,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <div><img src="<?php echo $base_url;?>/assets/images/teacher/tung-bui-tte7zd3kyd.jpg" class="media-left pull-left" alt="Tung Bui, Ph.D."></div>
+                      <div><img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/tung-bui-tte7zd3kyd.jpg" class="media-left pull-left" alt="Tung Bui, Ph.D."></div>
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Tung Bui, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -103,7 +104,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <div><img src="<?php echo $base_url;?>/assets/images/teacher/tung-bui-tte7zd3kyd.jpg" class="media-left pull-left" alt="Tung Bui, Ph.D."></div>
+                      <div><img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/tung-bui-tte7zd3kyd.jpg" class="media-left pull-left" alt="Tung Bui, Ph.D."></div>
                       <div class="">
 												<p class="textBlue"><span><strong>Tung Bui, Ph.D.</strong></p>
                         <ul>
@@ -118,7 +119,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <div><img src="<?php echo $base_url;?>/assets/images/teacher/John-Butler.jpg" class="media-left pull-left" alt="John Butler, Ph.D."></div>
+                      <div><img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/John-Butler.jpg" class="media-left pull-left" alt="John Butler, Ph.D."></div>
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>John Butler, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -130,7 +131,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <div><img src="<?php echo $base_url;?>/assets/images/teacher/John-Butler.jpg" class="media-left pull-left" alt="John Butler, Ph.D."></div>
+                      <div><img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/John-Butler.jpg" class="media-left pull-left" alt="John Butler, Ph.D."></div>
                       <div class="">
 												<p class="textBlue"><span><strong>John Butler, Ph.D.</strong></p>
                         <ul>
@@ -144,7 +145,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Wayne-Cascio.jpg" class="media-left pull-left" alt="Wayne Cascio, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Wayne-Cascio.jpg" class="media-left pull-left" alt="Wayne Cascio, Ph.D.">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Wayne Cascio, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -156,7 +157,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Wayne-Cascio.jpg" class="media-left pull-left" alt="Wayne Cascio, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Wayne-Cascio.jpg" class="media-left pull-left" alt="Wayne Cascio, Ph.D.">
                       <div class="">
 											<p class="textBlue"><span><strong>Wayne Cascio, Ph.D.</strong></p>
 												<ul>
@@ -170,7 +171,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Rosita-Chang.jpg" class="media-left pull-left" alt="Rosita Chang, Ph.D., CFA, CFP">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Rosita-Chang.jpg" class="media-left pull-left" alt="Rosita Chang, Ph.D., CFA, CFP">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Rosita Chang, Ph.D., CFA, CFP</strong></p>
 												<ul class="listTeacher">
@@ -181,7 +182,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Rosita-Chang.jpg" class="media-left pull-left" alt="Rosita Chang, Ph.D., CFA, CFP">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Rosita-Chang.jpg" class="media-left pull-left" alt="Rosita Chang, Ph.D., CFA, CFP">
                       <div class="">
 												<p class="textBlue"><span><strong>Rosita Chang, Ph.D., CFA, CFP</strong></p>
 												<ul>
@@ -194,7 +195,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Qimei-Chen.jpg" class="media-left pull-left" alt="Qimei Chen, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Qimei-Chen.jpg" class="media-left pull-left" alt="Qimei Chen, Ph.D.">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Qimei Chen, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -207,7 +208,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Qimei-Chen.jpg" class="media-left pull-left" alt="Qimei Chen, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Qimei-Chen.jpg" class="media-left pull-left" alt="Qimei Chen, Ph.D.">
                       <div class="">
 												<p class="textBlue"><span><strong>Qimei Chen, Ph.D.</strong></p>
 												<ul>
@@ -222,7 +223,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Elizabeth-J-Davidson.jpg" class="media-left pull-left" alt="Elizabeth J. Davidson, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Elizabeth-J-Davidson.jpg" class="media-left pull-left" alt="Elizabeth J. Davidson, Ph.D.">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Elizabeth J. Davidson, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -237,7 +238,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Elizabeth-J-Davidson.jpg" class="media-left pull-left" alt="Elizabeth J. Davidson, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Elizabeth-J-Davidson.jpg" class="media-left pull-left" alt="Elizabeth J. Davidson, Ph.D.">
                       <div class="">
 												<p class="textBlue"><span><strong>Elizabeth J. Davidson, Ph.D.</strong></p>
 												<ul>
@@ -254,7 +255,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Robert-Hanna.jpg" class="media-left pull-left" alt="Robert Hanna">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Robert-Hanna.jpg" class="media-left pull-left" alt="Robert Hanna">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Robert Hanna</strong></p>
 												<ul class="listTeacher">
@@ -267,7 +268,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Robert-Hanna.jpg" class="media-left pull-left" alt="Robert Hanna">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Robert-Hanna.jpg" class="media-left pull-left" alt="Robert Hanna">
                       <div class="">
 												<p class="textBlue"><span><strong>Robert Hanna</strong></p>
 												<ul>
@@ -282,7 +283,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/victor-huang.jpg" class="media-left pull-left" alt="Victor Huang, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/victor-huang.jpg" class="media-left pull-left" alt="Victor Huang, Ph.D.">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Victor Huang, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -295,7 +296,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/victor-huang.jpg" class="media-left pull-left" alt="Victor Huang, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/victor-huang.jpg" class="media-left pull-left" alt="Victor Huang, Ph.D.">
                       <div class="">
 												<p class="textBlue"><span><strong>Victor Huang, Ph.D.</strong></p>
 												<ul>
@@ -310,7 +311,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Eric-Mais.jpg" class="media-left pull-left" alt="Eric Mais, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Eric-Mais.jpg" class="media-left pull-left" alt="Eric Mais, Ph.D.">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Eric Mais, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -322,7 +323,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/Eric-Mais.jpg" class="media-left pull-left" alt="Eric Mais, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/Eric-Mais.jpg" class="media-left pull-left" alt="Eric Mais, Ph.D.">
                       <div class="">
 												<p class="textBlue"><span><strong>Eric Mais, Ph.D.</strong></p>
 												<ul>
@@ -336,7 +337,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/daniel-port.jpg" class="media-left pull-left" alt="Daniel Port, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/daniel-port.jpg" class="media-left pull-left" alt="Daniel Port, Ph.D.">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Daniel Port, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -348,7 +349,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/daniel-port.jpg" class="media-left pull-left" alt="Daniel Port, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/daniel-port.jpg" class="media-left pull-left" alt="Daniel Port, Ph.D.">
                       <div class="">
 												<p class="textBlue"><span><strong>Daniel Port, Ph.D.</strong></p>
 												<ul>
@@ -362,7 +363,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/hamid-pourjalali.jpg" class="media-left pull-left" alt="Hamid Pourjalali, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/hamid-pourjalali.jpg" class="media-left pull-left" alt="Hamid Pourjalali, Ph.D.">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Hamid Pourjalali, Ph.D.</strong></p>
 												<ul class="listTeacher">
@@ -375,7 +376,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/hamid-pourjalali.jpg" class="media-left pull-left" alt="Hamid Pourjalali, Ph.D.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/hamid-pourjalali.jpg" class="media-left pull-left" alt="Hamid Pourjalali, Ph.D.">
                       <div class="">
 												<p class="textBlue"><span><strong>Hamid Pourjalali, Ph.D.</strong></p>
 												<ul>
@@ -390,7 +391,7 @@
             </div>
 						<div class="panel panel-info">
                 <div class="panel-heading clearfix d-none d-sm-block">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/christopher-westland.jpg" class="media-left pull-left" alt="Chris Westland, Ph.D. CPA.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/christopher-westland.jpg" class="media-left pull-left" alt="Chris Westland, Ph.D. CPA.">
                       <div class="media-body contentTeacher">
 												<p class="textBlue"><span><strong>Chris Westland, Ph.D. CPA.</strong></p>
 												<ul class="listTeacher">
@@ -403,7 +404,7 @@
 											</div>
                 </div>
                 <div class="panel-heading clearfix d-block d-sm-none">
-                      <img src="<?php echo $base_url;?>/assets/images/teacher/christopher-westland.jpg" class="media-left pull-left" alt="Chris Westland, Ph.D. CPA.">
+                      <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/teacher/christopher-westland.jpg" class="media-left pull-left" alt="Chris Westland, Ph.D. CPA.">
                       <div class="">
 												<p class="textBlue"><span><strong>Chris Westland, Ph.D. CPA.</strong></p>
 												<ul>
@@ -425,7 +426,7 @@
 						</div>
             <div class="panel panel-info">
               <div class="panel-heading clearfix d-none d-sm-block">
-                    <img src="<?php echo $base_url;?>/assets/images/student/mailynguyen.jpg" class="media-left pull-left" alt="Maily Nguyen">
+                    <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/mailynguyen.jpg" class="media-left pull-left" alt="Maily Nguyen">
                     <div class="media-body contentStudent">
                       <p class="textBlue"><span><strong>Maily Nguyen</strong><br></span>West Coast Implementation Team Head, HSBC, Seattle<br>Class of 2010 – HCMC<br></p>
 
@@ -434,7 +435,7 @@
 										</div>
               </div>
               <div class="panel-heading clearfix d-block d-sm-none">
-                <img src="<?php echo $base_url;?>/assets/images/student/mailynguyen.jpg" class="media-left pull-left" alt="Maily Nguyen">
+                <img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/mailynguyen.jpg" class="media-left pull-left" alt="Maily Nguyen">
                 <div class="media-body">
                   <p class="textBlue"><span><strong>Maily Nguyen</strong><br></span>West Coast Implementation Team Head, HSBC, Seattle<br>Class of 2010 – HCMC<br></p>
                   <p class="text-muted"><span>“The University of Hawaii Executive MBA program has brought me to a new energy level at which I feel adequate to search for more answers to my questions and face-off more challenges. The program has also given me the opportunity to know one of the most elite groups of professionals and call them friends. Together we have created beautiful memories and wonderful bonds. These are some of the best presents that life can bring.”</span></p>
@@ -443,7 +444,7 @@
 						</div>
 						<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/student/tramy.jpeg" class="media-left pull-left" alt="Nguyen T. Tra My">
+											<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/tramy.jpeg" class="media-left pull-left" alt="Nguyen T. Tra My">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Nguyen T. Tra My</strong><br></span>Founder, Chairwoman/CEO of<br>CSC Vietnam, Co-Founder/Vice<br>Chairwoman of The PAN Group.<br>Class of 2007 – Hanoi<br></p>
 
@@ -452,7 +453,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/student/tramy.jpeg" class="media-left pull-left" alt="Nguyen T. Tra My">
+									<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/tramy.jpeg" class="media-left pull-left" alt="Nguyen T. Tra My">
 									<div class="media-body">
 									<p class="textBlue"><span><strong>Nguyen T. Tra My</strong><br></span>Founder, Chairwoman/CEO of<br>CSC Vietnam, Co-Founder/Vice<br>Chairwoman of The PAN Group.<br>Class of 2007 – Hanoi<br></p>
 
@@ -463,7 +464,7 @@
 							</div>
 							<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Quyen Nguyen">
+											<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Quyen Nguyen">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Quyen Nguyen</strong><br></span>Manager,<br>Partner Operations (Google<br>Play Movies & YouTube), San<br>Francisco. Class of 2012 –<br>HCMC<br></p>
 
@@ -472,7 +473,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Quyen Nguyen">
+									<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Quyen Nguyen">
 									<div class="media-body">
 										<p class="textBlue"><span><strong>Quyen Nguyen</strong><br></span>Manager,<br>Partner Operations (Google<br>Play Movies & YouTube), San<br>Francisco. Class of 2012 –<br>HCMC<br></p>
 										<p class="text-muted"><span>“There will be no difference once I have my MBA. I already feel different. It was the journey. And it has already changed me.”</span></p>
@@ -481,7 +482,7 @@
 							</div>
 							<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/student/luutrungthai.PNG" class="media-left pull-left" alt="Luu Trung Thai">
+											<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/luutrungthai.PNG" class="media-left pull-left" alt="Luu Trung Thai">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Luu Trung Thai</strong><br></span>CEO, Military Bank (MBB),<br>Class of 2009 – Hanoi<br></p>
 
@@ -490,7 +491,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/student/luutrungthai.PNG" class="media-left pull-left" alt="Luu Trung Thai">
+									<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/luutrungthai.PNG" class="media-left pull-left" alt="Luu Trung Thai">
 									<div class="media-body">
 										<p class="textBlue"><span><strong>Luu Trung Thai</strong><br></span>CEO, Military Bank (MBB),<br>Class of 2009 – Hanoi<br></p>
 										<p class="text-muted"><span>“….The workload of the Vietnam Executive MBA program (VEMBA) is really heavy but worthwhile. During and after studying the program, I was assigned to different positions as Head of Retail Banking, IT, Securities and now the CEO of Military Bank. At each position, I always made full use of VEMBA knowledge and skills and delivered good results.”</span></p>
@@ -499,7 +500,7 @@
 							</div>
 							<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/student/chuthithanhha.jpg" class="media-left pull-left" alt="Chu Thi Thanh Ha">
+											<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/chuthithanhha.jpg" class="media-left pull-left" alt="Chu Thi Thanh Ha">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Chu Thi Thanh Ha</strong><br></span>Chairwoman, FPT Telecom<br>Class of 2005 – Hanoi<br></p>
 
@@ -508,7 +509,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/student/chuthithanhha.jpg" class="media-left pull-left" alt="Chu Thi Thanh Ha">
+									<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/chuthithanhha.jpg" class="media-left pull-left" alt="Chu Thi Thanh Ha">
 									<div class="media-body">
 										<p class="textBlue"><span><strong>Chu Thi Thanh Ha</strong><br></span>Chairwoman, FPT Telecom<br>Class of 2005 – Hanoi<br></p>
 										<p class="text-muted"><span>“I am confident to take more critical responsibilities at my corporation as I have been trained in this EMBA program to think strategically and to have a sound understanding of the value chain of large organizations such as FPT Corp.”</span></p>
@@ -517,7 +518,7 @@
 							</div>
 							<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/student/dinhducthang.jpg" class="media-left pull-left" alt="Dinh Duc Thang">
+											<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/dinhducthang.jpg" class="media-left pull-left" alt="Dinh Duc Thang">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Dinh Duc Thang</strong><br></span>CEO, Opec Plastics., JSC<br>Class of 2013 – Hanoi<br></p>
 
@@ -526,7 +527,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/student/dinhducthang.jpg" class="media-left pull-left" alt="Dinh Duc Thang">
+									<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/dinhducthang.jpg" class="media-left pull-left" alt="Dinh Duc Thang">
 									<div class="media-body">
 										<p class="textBlue"><span><strong>Dinh Duc Thang</strong><br></span>CEO, Opec Plastics., JSC<br>Class of 2013 – Hanoi<br></p>
 										<p class="text-muted"><span>“The two years pursuing the Executive MBA program of the University of Hawaii are the most energetic, valuable and memorable times of my life. I hold close to my heart all the memories of interesting courses, complicated case studies, strict professors with rigid deadlines, night-long group meetings with endless debates about the differentiation in business strategies, and stress-relieving gatherings with affectionate smiles and friendly faces. I am ready for a new journey ahead”</span></p>
@@ -535,7 +536,7 @@
 							</div>
 							<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/student/ha-thu-thanh.jpg" class="media-left pull-left" alt="Ha Thu Thanh">
+											<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/ha-thu-thanh.jpg" class="media-left pull-left" alt="Ha Thu Thanh">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Ha Thu Thanh</strong><br></span>CEO, Deloitte Vietnam<br>Class of 2003 – Hanoi<br></p>
 
@@ -544,7 +545,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/student/ha-thu-thanh.jpg" class="media-left pull-left" alt="Ha Thu Thanh">
+									<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/ha-thu-thanh.jpg" class="media-left pull-left" alt="Ha Thu Thanh">
 									<div class="media-body">
 												<p class="textBlue"><span><strong>Ha Thu Thanh</strong><br></span>CEO, Deloitte Vietnam<br>Class of 2003 – Hanoi<br></p>
 												<p class="text-muted"><span>“Education and learning business has always been of prime importance in my life. Being the CEO of Deloitte Vietnam, the largest auditing firm in Vietnam, it has indeed been a rewarding challenge for me to balance my work my family and the Executive MBA program with University of Hawaii. As I view this, I have improved on my skills and knowledge to work in a very global environment. The knowledge of professors combined with the experiences of my classmates, who happen to be not only Vietnamese but also many expatriates, has helped me manage my business more effectively & efficiently. The pursuit of an MBA requires lots of time and patience. If you have these, then don’t miss the chance to get a world class, well acclaimed, AACSB accredited MBA program right at your doorstep with the University of Hawaii at Manoa.”</span></p>
@@ -553,7 +554,7 @@
 							</div>
 							<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/student/huynhbuuquang.PNG" class="media-left pull-left" alt="Huynh Buu Quang">
+											<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/huynhbuuquang.PNG" class="media-left pull-left" alt="Huynh Buu Quang">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Huynh Buu Quang</strong><br></span>CEO, Maritime Bank Vietnam<br>Class of 2011 – HCMC<br></p>
 
@@ -562,7 +563,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/student/huynhbuuquang.PNG" class="media-left pull-left" alt="Huynh Buu Quang">
+									<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/student/huynhbuuquang.PNG" class="media-left pull-left" alt="Huynh Buu Quang">
 									<div class="media-body">
 												<p class="textBlue"><span><strong>Huynh Buu Quang</strong><br></span>CEO, Maritime Bank Vietnam<br>Class of 2011 – HCMC<br></p>
 												<p class="text-muted"><span>“My 2-year experience with the University of Hawaii’s Executive MBA program was undoubtedly one of the best periods in my life. It gave me chances to meet with wonderful people, both local and global, gain up-to-date and world class international best practices and know-how in various aspects of management techniques / philosophies and explore new things which I had never had the opportunity to do prior to joining this program. I could apply concepts and experiences acquired from the program into my daily job and life, almost instantly. The best part of all is the friendships that I developed during the 2-year journey which has extended well beyond completion of the program. It has more than paid off!”</span></p>
@@ -571,7 +572,7 @@
 							</div>
 							<div class="panel panel-info">
 								<div class="panel-heading clearfix d-none d-sm-block">
-											<img src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Nguyen Anh Tuan">
+											<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Nguyen Anh Tuan">
 											<div class="media-body contentStudent">
 											<p class="textBlue"><span><strong>Nguyen Anh Tuan</strong><br></span>Director, Transaction Banking, Standard Chartered Bank, Sydney<br>Class of 2011 – HCMC<br></p>
 
@@ -580,7 +581,7 @@
 											</div>
 								</div>
 								<div class="panel-heading clearfix d-block d-sm-none">
-									<img src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Nguyen Anh Tuan">
+									<img title="<?php echo $title?>" src="<?php echo $base_url;?>/assets/images/user.png" class="media-left pull-left" alt="Nguyen Anh Tuan">
 									<div class="media-body">
 												<p class="textBlue"><span><strong>Nguyen Anh Tuan</strong><br></span>Director, Transaction Banking, Standard Chartered Bank, Sydney<br>Class of 2011 – HCMC<br></p>
 												<p class="text-muted"><span>“The key success factors in pursuing an Executive MBA program are strong commitment, hard work, and relentless sacrifice of other interests. In return, this program has given me the required knowledge to succeed, strong entrepreneurship, much widened professional network, and wonderful relationships with faculty members and other alumni. Financially, the program has been a good investment for my career. Above all, it has amazingly built a different perspective in life – just like what Albert Einstein used to say “Try not to become a man of success, but rather try to become a man of value”. The Executive MBA at University of Hawaii was definitely a chapter wort highlighting.”</span></p>
