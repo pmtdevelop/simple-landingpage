@@ -8,6 +8,7 @@ if ($_POST["submit"]) {
     $DB = new database($hostname, $userhost, $passhost, $dbname);
     $DB->connect();
     $html = '<h3>Thông tin người dùng </h3><br/>';
+
     foreach ($_POST as $key => $value) {
         if ($key !== "submit") {
             $fields[] = "`" . $key . "`";
@@ -15,6 +16,11 @@ if ($_POST["submit"]) {
             $html .= ucfirst(str_replace('_',' ',$key)) . " : " . $value . "<br/>";
         }
     }
+    $date = new DateTime();
+    $fields[] = "created_date";
+    $datas[] = "'".$date->format('Y-m-d')."'";
+
+    $html .=  "Ngày đăng ký : " . $date->format('d-m-Y') . "<br/>";
     $fields = implode(',', $fields);
     $values = implode(',', $datas);
     $sql = " insert into `$tablename` ( $fields) values ($values)";
