@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/langdingpage_tp.iml" filepath="$PROJECT_DIR$/.idea/langdingpage_tp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/langdingpage.iml" filepath="$PROJECT_DIR$/.idea/langdingpage.iml" />
     </modules>
   </component>
 </project>
